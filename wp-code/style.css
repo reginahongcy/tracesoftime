@@ -1,0 +1,227 @@
+/*
+Theme Name: Twenty Twenty Child
+Theme URL: http://digh403-regina.pantheonlocal.com
+Description: Twenty Twenty Child
+Theme Author: Your Name
+Author URL: http://digh403-regina.pantheonlocal.com
+Template: twentytwenty
+Version: 1.0.0
+Text Domain: twentytwenty-child
+*/
+.button {
+    background-color: blue;
+    color:blue;
+}
+
+#resourceDesc {
+    background-color: ghostwhite;
+    padding: 15px;
+    border-radius:15px;
+    text-align:left;
+    font-size:90%;
+}
+
+#metadataTable {
+    background-color: ghostwhite;
+}
+
+.cover-header {
+    max-height: 60vh!important;
+}
+
+.cover-header-inner {
+    padding: 0 0 45vh 0
+}
+
+#resourcesContent {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    align-content: center;
+}
+
+#resourceImage {
+    vertical-align:middle;
+    /*margin-top:35vh;*/
+    /*margin-left:30px;*/
+}
+
+#objImg {
+    vertical-align:middle;
+    margin-top:10vh;
+}
+
+h3 {
+    font-size:0.875rem;
+}
+
+h2 {
+    font-size:1.75rem;
+}
+
+h1 {
+    font-size:3.5rem;
+}
+
+/*start of CSS for cards in archive.php*/
+
+a:link {
+    text-decoration: none;
+}
+
+a:active {
+    text-decoration: none;
+}
+
+/*start of CSS for lightbox.js*/
+#cardsContainer {
+    display: flex;
+    flex-wrap: wrap;
+    height: 15em;
+    border: 5px solid rgb(111,41,97);
+    border-radius: .5em;
+    padding: 10px;
+    align-items: center;
+    margin: 1em;
+}
+
+html {
+    box-sizing: border-box;
+}
+
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
+body {
+    margin: 0;
+}
+
+.preview {
+    width: 100%;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.row > .col {
+    padding: 0 8px;
+}
+
+.col {
+    float: left;
+    width: 25%;
+}
+
+.modal {
+    display: none;
+    z-index: 1;
+    padding: 10px 62px 0px 62px;
+    width: 800px;
+    max-width: 100%;
+    height: 600px;
+    max-height:100%;
+    overflow: auto;
+    background-color: black;
+    position: fixed;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.modal-content {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: auto;
+    padding: 0 0 0 0;
+    width: 100%;
+    max-width: 800px;
+}
+
+.slide {
+    display: none;
+
+}
+
+.image-slide {
+    width: 100%;
+}
+
+.modal-preview {
+    width: 100%;
+}
+
+.dots {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-top: 3%;
+}
+
+img.preview, img.modal-preview {
+    opacity: 0.6;
+}
+
+img.active,
+.preview:hover,
+.modal-preview:hover {
+    opacity: 1;
+}
+
+img.hover-shadow {
+    transition: 0.3s;
+}
+
+.hover-shadow:hover {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.close {
+    color: white;
+    position: absolute;
+    top: 10px;
+    right: 25px;
+    font-size: 35px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: #999;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.previous,
+.next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    padding: 16px;
+    margin-top: -50px;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+    -webkit-user-select: none;
+}
+
+.next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+}
+
+.previous:hover,
+.next:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+
