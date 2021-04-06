@@ -90,15 +90,6 @@ get_template_part( 'template-parts/entry-header' );?>
 
 </div><!-- .section-inner -->
 
-<?php
-
-if ( is_single() ) {
-
-    get_template_part( 'template-parts/navigation' );
-
-}
-
-?>
 
 </article><!-- .post -->
 </html>

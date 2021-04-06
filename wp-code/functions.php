@@ -14,6 +14,13 @@ wp_enqueue_script( 'contentjs', get_stylesheet_directory_uri() . '/js/content.js
 }
 add_action( 'wp_enqueue_scripts', 'my_new_script' );
 
+//add bootstrap style sheet to theme
+function wpbootstrap_enqueue_styles() {
+    wp_enqueue_style( 'bootstrap', '//stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css' );
+    wp_enqueue_style( 'my-style', get_template_directory_uri() . '/style.css');
+}
+add_action('wp_enqueue_scripts', 'wpbootstrap_enqueue_styles');
+
 function my_leaflet_head_style () {
     wp_register_style('leaflet_head_style','https://unpkg.com/leaflet@1.7.1/dist/leaflet.css',null,null);
     wp_enqueue_style('leaflet_head_style');
