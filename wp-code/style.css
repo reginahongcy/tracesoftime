@@ -8,10 +8,6 @@ Template: twentytwenty
 Version: 1.0.0
 Text Domain: twentytwenty-child
 */
-.button {
-    background-color: blue;
-    color:blue;
-}
 
 #resourceDesc {
     background-color: ghostwhite;
@@ -52,15 +48,15 @@ Text Domain: twentytwenty-child
 }
 
 h3 {
-    font-size:0.875rem;
+    font-size:1.5rem;
 }
 
 h2 {
-    font-size:1.75rem;
+    font-size:3rem;
 }
 
 h1 {
-    font-size:3.5rem;
+    font-size:4.5rem;
 }
 
 /*start of CSS for cards in archive.php*/
