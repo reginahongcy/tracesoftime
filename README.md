@@ -5,4 +5,4 @@ This is the project documentation for my capstone, [Traces of Time](http://ctsdh
 sources.
 
 ## Using the code
-To use the code for your own project, place the files within your own theme folder, which should be within your wp-content folder. The theme for Traces of Time is a child theme of twenty twenty. 
+To use the code for your own project, place the files within your own theme folder, which should be within your **wp-content** folder. The theme for Traces of Time is a child theme of twenty twenty. 
