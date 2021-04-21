@@ -1,7 +1,10 @@
-To use this code for your own project, you will need:
+## Using the code
+To use the code for your own project, place the files within your own theme folder, which should be within your **wp-content** folder. 
 
-1. The WordPress **twentytwenty theme** and 
-2. The following plug-ins:
+You will also need to:
+
+1. Have the files for the WordPress **twentytwenty theme** within the **wp-content** folder, and 
+2. Install the following plug-ins:
 - Advanced Custom Fields (for metadata entry)
 - ACF: Better Search (to pull information from ACF into search box)
 - Search Exclude (for excluding “About” section pages and front page from search results; only Resources, Objects, Guides posts will appear in search)
